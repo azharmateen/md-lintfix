@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "md-lintfix"
+version = "0.1.0"
+description = "Opinionated Markdown linter + auto-fixer for consistent documentation."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+authors = [{ name = "md-lintfix contributors" }]
+keywords = ["markdown", "linter", "formatter", "documentation", "toc"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Documentation",
+    "Topic :: Text Processing :: Markup :: Markdown",
+]
+dependencies = [
+    "click>=8.0",
+    "rich>=13.0",
+    "requests>=2.28",
+]
+
+[project.scripts]
+md-lintfix = "md_lintfix.cli:cli"
+
+[project.urls]
+Homepage = "https://github.com/md-lintfix/md-lintfix"
+Issues = "https://github.com/md-lintfix/md-lintfix/issues"
