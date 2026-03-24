@@ -1,5 +1,8 @@
 # md-lintfix
 
+[![Built with Claude Code](https://img.shields.io/badge/Built%20with-Claude%20Code-blue?logo=anthropic&logoColor=white)](https://claude.ai/code)
+
+
 **Opinionated Markdown linter + auto-fixer for consistent documentation.**
 
 > Your docs have 47 trailing whitespace issues, 12 broken links, and 3 orphan pages. **md-lintfix** finds them all and fixes what it can.
